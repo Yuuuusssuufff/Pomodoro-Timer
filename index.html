@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pomodoro Timer</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Pomodoro Timer</h1>
+        <p id="countdown">
+            <span id="min">00</span>:
+            <span id="sec">00</span>
+            <!-- <span id="msec">00</span> -->
+        </p>
+       <div id="inputs">
+            <input type="number" id="worktime" placeholder="work time" value="25">
+            <input type="number" id="breaktime" placeholder="break time" value ="05">
+       </div>
+        <div id="buttons">
+            <button id="work">WORK</button>
+            <button id="start">START</button>
+            <button id="stop">STOP</button>
+            <button id="break">BREAK</button>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>

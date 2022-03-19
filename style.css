@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(192, 255, 224);
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    color: yellowgreen;
+}
+.container{
+    background-color: pink;
+    height: 60vh;
+    width: 30%;
+    display: grid;
+    place-items: center;
+    border-radius: .5em;
+}
+#countdown{
+    font-size: 40px;
+}
+input{
+    width: 60px;
+    color: yellowgreen;
+}
+button{
+    outline: none;
+    background: brown;
+    color: yellowgreen;     
+}
+
+
+
+
+/* const minutesEl = document.querySelector("#min");
+const secondsEl = document.querySelector("#sec");
+const msecondsEl = document.querySelector("#msec");
+const worktimeEl = document.querySelector("#worktime");
+const breaktimeEl = document.querySelector("#breaktime");
+const workBtn = document.querySelector("#work");
+const startBtn = document.querySelector("#start");
+const stopBtn = document.querySelector("#stop");
+const breakBtn = document.querySelector("#break");
+
+//variables
+let seconds = 00
+let minutes = 25
+
+
+function timer () {
+  seconds--;
+}
+  if(seconds < 0){
+    minutes--;
+    seconds = 59;
+    minutesEl.innerText = minutes;
+  }
+  if(seconds >=10 && seconds <= 59){
+    secondsEl.innerText = seconds;
+  }
+  if(seconds < 10 && seconds >= 0){
+    seconds = `0${seconds}`;
+    secondsEl.innerText = seconds;
+  }
+  if(minutes < 10){
+    minutes = "0" + minutes
+    minutes.innerText = minutes
+  }
+  
+
+
+  startBtn.addEventListener("click", () => {
+    interval = setInterval(timer, 1000);
+  });
+  
+  stopBtn.addEventListener("click", () => {
+    clearInterval(interval);
+  });
+
+  workBtn.addEventListener("click", () => {
+    minutes = worktimeEl.value;
+    minutesEl.innerHTML = minutes;
+    secondsEl.innerHTML = "00";
+    clearInterval(interval);
+});
+
+
+
+breakBtn.addEventListener("click", () => {
+  minutes = worktimeEl.value;
+  minutesEl.innerHTML = minutes;
+  secondsEl.innerHTML = "00";
+  clearInterval(interval);
+}); */
